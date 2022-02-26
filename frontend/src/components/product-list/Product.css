@@ -1,0 +1,120 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080710;
+}
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -80px;
+    top: -80px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: -30px;
+    bottom: -80px;
+}
+#productlist{
+    height: 100%;
+    width: 60%;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+#productlist h1{
+    color: #ffffff;
+    text-align: center;
+}
+#table thead tr td{
+    background-color: #ffc116;
+    border: 1px solid;
+    padding: 5px 10px;
+    width:300px;
+}
+#table tbody tr td{
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 5px 10px;
+}
+
+#add{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(255,255,255,0.13);
+    border:2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    border-radius: 10px;
+    padding: 0px 35px;
+    margin: 0 auto;   
+    backdrop-filter: blur(10px);
+}
+#add label{
+    text-align: left;
+}
+#add input{
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #ffffff;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 0px;
+}
+
+#add button{
+    background: rgb(255, 255, 255);
+    color: black;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin-top: 60px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+#add-button{
+    text-decoration: none;
+}
+#add-product-button{
+    background: rgb(255, 255, 255);
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    width: 20%;
+    margin-left:39%;
+}
